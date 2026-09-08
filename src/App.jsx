@@ -7,9 +7,10 @@ import Balloons from "./components/Balloons";
 import SpecialReasons from "./components/SpecialReasons";
 import PhotoGallery from "./components/PhotoGallery";
 import LoveLetter from "./components/LoveLetter";
-import Timeline from "./components/Timeline";
+import Timeline from "./components/TimeLine";
 import GiftBox from "./components/GiftBox";
 import FinalSurprise from "./components/FinalSurprise";
+// import Timeline from "./components/Timeline";
 
 function App() {
   const audioRef = useRef(null);
