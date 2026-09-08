@@ -28,7 +28,7 @@ const memories = [
   }
 ];
 
-function Timeline({ onNext }) {
+function TimeLine({ onNext }) {
   return (
     <section className="screen timeline-screen">
 
@@ -102,4 +102,4 @@ function Timeline({ onNext }) {
   );
 }
 
-export default Timeline;
+export default TimeLine;

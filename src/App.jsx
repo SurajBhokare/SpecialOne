@@ -7,10 +7,13 @@ import Balloons from "./components/Balloons";
 import SpecialReasons from "./components/SpecialReasons";
 import PhotoGallery from "./components/PhotoGallery";
 import LoveLetter from "./components/LoveLetter";
-import Timeline from "./components/TimeLine";
+import TimeLine from "./components/TimeLine";
 import GiftBox from "./components/GiftBox";
+
+
+
+
 import FinalSurprise from "./components/FinalSurprise";
-// import Timeline from "./components/Timeline";
 
 function App() {
   const audioRef = useRef(null);
@@ -123,7 +126,10 @@ function App() {
         return <LoveLetter onNext={goNext} />;
 
       case 6:
-        return <Timeline onNext={goNext} />;
+          
+
+
+      return <TimeLine onNext={goNext} />;
 
       case 7:
         return (
